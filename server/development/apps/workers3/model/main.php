@@ -14,7 +14,7 @@ class Main
 
 	public function formsubmitAmbassador(array $data):?array {
 		// Тут модель повинна бути допрацьована, щоб використовувати бази даних, тощо
-		$key = '1858934382:AAEUNC7fUB6kJzASBvWSNdoPbolWFdf1Tdk'; // Ключ API телеграм
+		$key = ''; // Ключ API телеграм
 		if(!isset($key) || empty($key)){
 			throw new \Exception('API key does not settled!',4);
 		}
